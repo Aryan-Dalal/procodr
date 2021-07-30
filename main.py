@@ -39,7 +39,7 @@ t = int(input())
 test_cases = []
 for z in range(t):
   test_cases.append(input())
-  ans = test_cases[z] / 2 + 1
+  ans = int(test_cases[z]) / 2 + 1
   ans = math.floor(ans)
   print(ans)
 # i = 0
