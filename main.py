@@ -34,13 +34,15 @@
 # 2
 # 3
 
-
+import math
 t = int(input())
 test_cases = []
 for z in range(t):
   test_cases.append(input())
-
-i = 0
-while i<t:
+  ans = test_cases[z] / 2 + 1
+  ans = math.floor(ans)
+  print(ans)
+# i = 0
+# while i<t:
   
-  i = i+1
+#   i = i+1
