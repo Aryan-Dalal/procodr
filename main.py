@@ -36,6 +36,10 @@
 
 
 t = int(input())
+test_cases = []
+for z in range(t):
+  test_cases.append(input())
+
 i = 0
 while i<t:
   
