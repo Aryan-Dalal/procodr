@@ -25,8 +25,18 @@
 # For each test case, output the package size that will maximize the number of leftover cupcakes. 
 # If multiple package sizes will result in the same number of leftover cupcakes, print the largest such size.
 
+# Sample Input
+# 2
+# 2
+# 5
+
+# Sample Output
+# 2
+# 3
+
+
 t = int(input())
 i = 0
 while i<t:
-  #write code
+  
   i = i+1
